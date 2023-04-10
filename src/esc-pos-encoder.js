@@ -77,6 +77,8 @@ class EscPosEncoder {
      */
     codepage(value) {
         const codepages = {
+            '6': [0x06, false],
+            '7': [0x07, false],
             'cp437': [0x00, false],
             'cp737': [0x40, false],
             'cp850': [0x02, false],
